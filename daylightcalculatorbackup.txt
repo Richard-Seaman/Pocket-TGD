@@ -1,0 +1,187 @@
+//
+//  DaylightCalculatorTVC.swift
+//  BDP Reference App
+//
+//  Created by Richard Seaman on 05/04/2015.
+//  Copyright (c) 2015 RichApps. All rights reserved.
+//
+
+import UIKit
+
+class DaylightCalculatorTVC: UITableViewController {
+    
+    // Table Variables
+    let decimalEntryIdentifier = "decimalNumberEntry"
+    var sectionNames:[String] = ["Room", "Window", "Reflectances"]
+    var numberOfRowsInSection:[Int] = [Int]()
+    
+    // Table Description Variables
+    var roomDescriptions:[String] = ["Room Depth (m)", "Room Length (m)", "Room Height (m)"]
+    var roomPlaceholders:[String] = ["D", "L", "H"]
+    
+    var windowDescriptions:[String] = ["Window Height (m)", "Window Length (m)", "Glazing Transmittance (%)", "Visible Sky Angle (degrees)", "Dirt Correction Factor (-)"]
+    var windowPlaceholders:[String] = ["H", "L", "T", "VSA", "DCF"]
+    
+    var reflectancesDescriptions:[String] = ["Ceiling (%)", "Floor (%)", "Walls (%)", "Glass (%)"]
+    var reflectancesPlaceholders:[String] = ["80", "40", "70", "10"]
+    
+    // User inputs
+    var roomDimensions:[Double] = [Double(),Double(),Double()]
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // Determine the number of rows in each section from string arrays above
+        self.numberOfRowsInSection = [self.roomDescriptions.count, self.windowDescriptions.count, self.reflectancesDescriptions.count]
+        
+        // Uncomment the following line to preserve selection between presentations
+        // self.clearsSelectionOnViewWillAppear = false
+
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
+    // MARK: - Table view data source
+
+    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        
+        return self.sectionNames.count
+    }
+
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        return numberOfRowsInSection[section]
+    }
+    
+    // Assign Section Header Text
+    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String?{
+        
+        return self.sectionNames[section]
+        
+    }
+    
+    // Set properties of section header
+    override func tableView(tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+        let header: UITableViewHeaderFooterView = view as UITableViewHeaderFooterView //recast your view as a UITableViewHeaderFooterView
+        header.contentView.backgroundColor = UIColor(red: 205/255, green: 28/255, blue: 1/255, alpha: 1.0) //make the background BDP Red
+        header.textLabel.textColor = UIColor.whiteColor() //make the text white
+        header.alpha = 0.8 //make the header transparent
+    }
+    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        // Room dimensions section
+        if (indexPath.section == 0) {
+            
+            // Try to reuse cell
+            let cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier(decimalEntryIdentifier) as UITableViewCell
+            
+            // Grab the elements using the tag
+            var descriptionLabel:UILabel = cell.viewWithTag(1) as UILabel
+            var decimalTextField:textFieldEntry = cell.viewWithTag(2) as textFieldEntry
+            
+            // Set up the Label
+            descriptionLabel.text = self.roomDescriptions[indexPath.row]
+            
+            // Set up the text field
+            decimalTextField.placeholder = self.roomPlaceholders[indexPath.row]
+            decimalTextField.rowWhereDataIs = indexPath.row
+            NSLog("textField section:\(indexPath.section) row:\(indexPath.row) object: \(decimalTextField)")
+            //decimalTextField.addTarget(self, action: Selector("setRoomDimensions:"), forControlEvents: UIControlEvents.EditingDidEnd)
+            
+            return cell
+        }
+        // Window dimensions section
+        else if (indexPath.section == 1) {
+            
+            // Try to reuse cell
+            let cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier(decimalEntryIdentifier) as UITableViewCell
+            
+            // Grab the elements using the tag
+            let descriptionLabel:UILabel = cell.viewWithTag(1) as UILabel
+            let decimalTextField:textFieldEntry = cell.viewWithTag(2) as textFieldEntry
+            
+            // Set up the Label
+            descriptionLabel.text = self.windowDescriptions[indexPath.row]
+            
+            // Set up the text field
+            decimalTextField.placeholder = self.windowPlaceholders[indexPath.row]
+            
+            return cell
+        }
+        else {
+            
+            // Try to reuse cell
+            let cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier(decimalEntryIdentifier) as UITableViewCell
+            
+            // Grab the elements using the tag
+            let descriptionLabel:UILabel = cell.viewWithTag(1) as UILabel
+            let decimalTextField:textFieldEntry = cell.viewWithTag(2) as textFieldEntry
+            
+            // Set up the Label
+            descriptionLabel.text = self.reflectancesDescriptions[indexPath.row]
+            
+            // Set up the text field
+            decimalTextField.placeholder = self.reflectancesPlaceholders[indexPath.row]
+            
+            return cell
+        }
+        
+        
+    }
+    
+    func setRoomDimensions(sender:textFieldEntry!) {
+        
+        self.roomDimensions[sender.rowWhereDataIs] = (sender.text as NSString).doubleValue
+        
+    }
+
+    /*
+    // Override to support conditional editing of the table view.
+    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+        // Return NO if you do not want the specified item to be editable.
+        return true
+    }
+    */
+
+    /*
+    // Override to support editing the table view.
+    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        if editingStyle == .Delete {
+            // Delete the row from the data source
+            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
+        } else if editingStyle == .Insert {
+            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+        }    
+    }
+    */
+
+    /*
+    // Override to support rearranging the table view.
+    override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
+
+    }
+    */
+
+    /*
+    // Override to support conditional rearranging of the table view.
+    override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+        // Return NO if you do not want the item to be re-orderable.
+        return true
+    }
+    */
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        // Get the new view controller using [segue destinationViewController].
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}

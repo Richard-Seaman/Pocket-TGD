@@ -1,0 +1,938 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B0314531ADDB67100EB0936 /* DaylightCalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0314521ADDB67100EB0936 /* DaylightCalculatorVC.swift */; };
+		9B3962E61AE3C4F6006A3C6E /* A.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9B3962D91AE3C4F6006A3C6E /* A.pdf */; };
+		9B3962E71AE3C4F6006A3C6E /* B.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9B3962DA1AE3C4F6006A3C6E /* B.pdf */; };
+		9B3962E81AE3C4F6006A3C6E /* C.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9B3962DB1AE3C4F6006A3C6E /* C.pdf */; };
+		9B3962E91AE3C4F6006A3C6E /* D.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9B3962DC1AE3C4F6006A3C6E /* D.pdf */; };
+		9B3962EA1AE3C4F6006A3C6E /* E.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9B3962DD1AE3C4F6006A3C6E /* E.pdf */; };
+		9B3962EB1AE3C4F6006A3C6E /* F.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9B3962DE1AE3C4F6006A3C6E /* F.pdf */; };
+		9B3962EC1AE3C4F6006A3C6E /* G.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9B3962DF1AE3C4F6006A3C6E /* G.pdf */; };
+		9B3962ED1AE3C4F6006A3C6E /* H.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9B3962E01AE3C4F6006A3C6E /* H.pdf */; };
+		9B3962EE1AE3C4F6006A3C6E /* J.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9B3962E11AE3C4F6006A3C6E /* J.pdf */; };
+		9B3962EF1AE3C4F6006A3C6E /* K.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9B3962E21AE3C4F6006A3C6E /* K.pdf */; };
+		9B3962F01AE3C4F6006A3C6E /* L1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9B3962E31AE3C4F6006A3C6E /* L1.pdf */; };
+		9B3962F11AE3C4F6006A3C6E /* L2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9B3962E41AE3C4F6006A3C6E /* L2.pdf */; };
+		9B3962F21AE3C4F6006A3C6E /* M.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9B3962E51AE3C4F6006A3C6E /* M.pdf */; };
+		9B3962F51AE3C5E7006A3C6E /* RegOrTGDSelectorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3962F41AE3C5E7006A3C6E /* RegOrTGDSelectorVC.swift */; };
+		9B3962F71AE3CA00006A3C6E /* BuildingRegsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3962F61AE3CA00006A3C6E /* BuildingRegsVC.swift */; };
+		9B3962F91AE3CAD3006A3C6E /* BuildingReg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3962F81AE3CAD3006A3C6E /* BuildingReg.swift */; };
+		9B3962FB1AE3CB62006A3C6E /* BuildingRegLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3962FA1AE3CB62006A3C6E /* BuildingRegLoader.swift */; };
+		9B4AD64A1BB1E1DA00AF9091 /* TGD-002.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9B4AD6461BB1E1DA00AF9091 /* TGD-002.pdf */; };
+		9B4AD64B1BB1E1DA00AF9091 /* TGD-003.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9B4AD6471BB1E1DA00AF9091 /* TGD-003.pdf */; };
+		9B4AD64C1BB1E1DA00AF9091 /* TGD-004.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9B4AD6481BB1E1DA00AF9091 /* TGD-004.pdf */; };
+		9B4AD64D1BB1E1DA00AF9091 /* TGD-005.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9B4AD6491BB1E1DA00AF9091 /* TGD-005.pdf */; };
+		9BBB6B771ACC87D900896148 /* TGD-020.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBB6B701ACC87D800896148 /* TGD-020.pdf */; };
+		9BBB6B781ACC87D900896148 /* TGD-021-1.doc in Resources */ = {isa = PBXBuildFile; fileRef = 9BBB6B711ACC87D800896148 /* TGD-021-1.doc */; };
+		9BBB6B791ACC87D900896148 /* TGD-021.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBB6B721ACC87D800896148 /* TGD-021.pdf */; };
+		9BBB6B7A1ACC87D900896148 /* TGD-023.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBB6B731ACC87D800896148 /* TGD-023.pdf */; };
+		9BBB6B7B1ACC87D900896148 /* TGD-025.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBB6B741ACC87D900896148 /* TGD-025.pdf */; };
+		9BBB6B7C1ACC87D900896148 /* TGD-021-5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBB6B751ACC87D900896148 /* TGD-021-5.pdf */; };
+		9BBB6B7D1ACC87D900896148 /* TGD-021-6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBB6B761ACC87D900896148 /* TGD-021-6.pdf */; };
+		9BBB6B7F1ACC88DF00896148 /* TGDLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBB6B7E1ACC88DF00896148 /* TGDLoader.swift */; };
+		9BBB6B831ACC8DC000896148 /* TGD-022.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBB6B801ACC8DC000896148 /* TGD-022.pdf */; };
+		9BBB6B841ACC8DC000896148 /* TGD-021-2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBB6B811ACC8DC000896148 /* TGD-021-2.pdf */; };
+		9BBB6B851ACC8DC000896148 /* TGD-021-3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBB6B821ACC8DC000896148 /* TGD-021-3.pdf */; };
+		9BBE6D521ACEE68B001FC93B /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE6D511ACEE68B001FC93B /* InfoVC.swift */; };
+		9BBE6D541ACF0BE5001FC93B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE6D531ACF0BE5001FC93B /* Constants.swift */; };
+		9BBE6D871AD03386001FC93B /* PP-ArtCraft.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D5A1AD03386001FC93B /* PP-ArtCraft.pdf */; };
+		9BBE6D881AD03386001FC93B /* PP-BusinessStudies.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D5B1AD03386001FC93B /* PP-BusinessStudies.pdf */; };
+		9BBE6D891AD03386001FC93B /* PP-CaretakersWorkArea.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D5C1AD03386001FC93B /* PP-CaretakersWorkArea.pdf */; };
+		9BBE6D8A1AD03386001FC93B /* PP-ChaplinOffice.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D5D1AD03386001FC93B /* PP-ChaplinOffice.pdf */; };
+		9BBE6D8B1AD03386001FC93B /* PP-Computer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D5E1AD03386001FC93B /* PP-Computer.pdf */; };
+		9BBE6D8C1AD03386001FC93B /* PP-Construction.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D5F1AD03386001FC93B /* PP-Construction.pdf */; };
+		9BBE6D8D1AD03386001FC93B /* PP-Demonstration.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D601AD03386001FC93B /* PP-Demonstration.pdf */; };
+		9BBE6D8E1AD03386001FC93B /* PP-DesignAndCommunicationGraphics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D611AD03386001FC93B /* PP-DesignAndCommunicationGraphics.pdf */; };
+		9BBE6D8F1AD03386001FC93B /* PP-DressDesign.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D621AD03386001FC93B /* PP-DressDesign.pdf */; };
+		9BBE6D901AD03386001FC93B /* PP-Engineering.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D631AD03386001FC93B /* PP-Engineering.pdf */; };
+		9BBE6D911AD03386001FC93B /* PP-FirstAid.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D641AD03386001FC93B /* PP-FirstAid.pdf */; };
+		9BBE6D921AD03386001FC93B /* PP-GeneralClassroom.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D651AD03386001FC93B /* PP-GeneralClassroom.pdf */; };
+		9BBE6D931AD03386001FC93B /* PP-GeneralFitnessSuite.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D661AD03386001FC93B /* PP-GeneralFitnessSuite.pdf */; };
+		9BBE6D941AD03386001FC93B /* PP-GeneralOffice1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D671AD03386001FC93B /* PP-GeneralOffice1.pdf */; };
+		9BBE6D951AD03386001FC93B /* PP-GeneralOffice2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D681AD03386001FC93B /* PP-GeneralOffice2.pdf */; };
+		9BBE6D961AD03386001FC93B /* PP-GLBC.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D691AD03386001FC93B /* PP-GLBC.pdf */; };
+		9BBE6D971AD03386001FC93B /* PP-GPDiningArea.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D6A1AD03386001FC93B /* PP-GPDiningArea.pdf */; };
+		9BBE6D981AD03386001FC93B /* PP-Group.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D6B1AD03386001FC93B /* PP-Group.pdf */; };
+		9BBE6D991AD03386001FC93B /* PP-HomeEconomics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D6C1AD03386001FC93B /* PP-HomeEconomics.pdf */; };
+		9BBE6D9A1AD03386001FC93B /* PP-HSCL.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D6D1AD03386001FC93B /* PP-HSCL.pdf */; };
+		9BBE6D9B1AD03386001FC93B /* PP-Kitchenette.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D6E1AD03386001FC93B /* PP-Kitchenette.pdf */; };
+		9BBE6D9C1AD03386001FC93B /* PP-LearningSupport1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D6F1AD03386001FC93B /* PP-LearningSupport1.pdf */; };
+		9BBE6D9D1AD03386001FC93B /* PP-LearningSupport2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D701AD03386001FC93B /* PP-LearningSupport2.pdf */; };
+		9BBE6D9E1AD03386001FC93B /* PP-Lecture.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D711AD03386001FC93B /* PP-Lecture.pdf */; };
+		9BBE6D9F1AD03386001FC93B /* PP-Library1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D721AD03386001FC93B /* PP-Library1.pdf */; };
+		9BBE6DA01AD03386001FC93B /* PP-Library2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D731AD03386001FC93B /* PP-Library2.pdf */; };
+		9BBE6DA11AD03386001FC93B /* PP-Maths.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D741AD03386001FC93B /* PP-Maths.pdf */; };
+		9BBE6DA21AD03386001FC93B /* PP-MeetingRoom.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D751AD03386001FC93B /* PP-MeetingRoom.pdf */; };
+		9BBE6DA31AD03386001FC93B /* PP-Multimedia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D761AD03386001FC93B /* PP-Multimedia.pdf */; };
+		9BBE6DA41AD03386001FC93B /* PP-MusicDrama.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D771AD03386001FC93B /* PP-MusicDrama.pdf */; };
+		9BBE6DA51AD03386001FC93B /* PP-PastoralOffice.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D781AD03386001FC93B /* PP-PastoralOffice.pdf */; };
+		9BBE6DA61AD03386001FC93B /* PP-PEControlCentre.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D791AD03386001FC93B /* PP-PEControlCentre.pdf */; };
+		9BBE6DA71AD03386001FC93B /* PP-PhotocopyRoom.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D7A1AD03386001FC93B /* PP-PhotocopyRoom.pdf */; };
+		9BBE6DA81AD03386001FC93B /* PP-PrincipalsOffice.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D7B1AD03386001FC93B /* PP-PrincipalsOffice.pdf */; };
+		9BBE6DA91AD03386001FC93B /* PP-ProjectStore.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D7C1AD03386001FC93B /* PP-ProjectStore.pdf */; };
+		9BBE6DAA1AD03386001FC93B /* PP-Religion.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D7D1AD03386001FC93B /* PP-Religion.pdf */; };
+		9BBE6DAB1AD03386001FC93B /* PP-ScienceLab1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D7E1AD03386001FC93B /* PP-ScienceLab1.pdf */; };
+		9BBE6DAC1AD03386001FC93B /* PP-ScienceLab2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D7F1AD03386001FC93B /* PP-ScienceLab2.pdf */; };
+		9BBE6DAD1AD03386001FC93B /* PP-SciencePrep1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D801AD03386001FC93B /* PP-SciencePrep1.pdf */; };
+		9BBE6DAE1AD03386001FC93B /* PP-SciencePrep2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D811AD03386001FC93B /* PP-SciencePrep2.pdf */; };
+		9BBE6DAF1AD03386001FC93B /* PP-SciencePrepSingle.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D821AD03386001FC93B /* PP-SciencePrepSingle.pdf */; };
+		9BBE6DB01AD03386001FC93B /* PP-StaffRoom.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D831AD03386001FC93B /* PP-StaffRoom.pdf */; };
+		9BBE6DB11AD03386001FC93B /* PP-TechnicalGraphics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D841AD03386001FC93B /* PP-TechnicalGraphics.pdf */; };
+		9BBE6DB21AD03386001FC93B /* PP-Technology.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D851AD03386001FC93B /* PP-Technology.pdf */; };
+		9BBE6DB31AD03386001FC93B /* PP-WTMP.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE6D861AD03386001FC93B /* PP-WTMP.pdf */; };
+		9BBE6DB51AD03594001FC93B /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE6DB41AD03594001FC93B /* Room.swift */; };
+		9BBE6DB71AD035F7001FC93B /* RoomLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE6DB61AD035F7001FC93B /* RoomLoader.swift */; };
+		9BCE1F171C6D37DA00F417FE /* TGD-001.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BCE1F161C6D37DA00F417FE /* TGD-001.pdf */; };
+		9BCE1F1D1C6E877400F417FE /* DaylightCalculatorInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE1F1C1C6E877400F417FE /* DaylightCalculatorInfoVC.swift */; };
+		9BCE1F1F1C6E880400F417FE /* ButtonWithRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE1F1E1C6E880400F417FE /* ButtonWithRow.swift */; };
+		9BCE1F211C6E881200F417FE /* TextFieldWithRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE1F201C6E881200F417FE /* TextFieldWithRow.swift */; };
+		9BED17761AC9C01F00896D3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED17751AC9C01F00896D3D /* AppDelegate.swift */; };
+		9BED177B1AC9C01F00896D3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BED17791AC9C01F00896D3D /* Main.storyboard */; };
+		9BED177D1AC9C01F00896D3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BED177C1AC9C01F00896D3D /* Images.xcassets */; };
+		9BED17801AC9C01F00896D3D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BED177E1AC9C01F00896D3D /* LaunchScreen.xib */; };
+		9BED178C1AC9C01F00896D3D /* BDP_Reference_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED178B1AC9C01F00896D3D /* BDP_Reference_AppTests.swift */; };
+		9BED17981AC9CB5A00896D3D /* TGD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED17971AC9CB5A00896D3D /* TGD.swift */; };
+		9BED179A1AC9CC6900896D3D /* TGD-030.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BED17991AC9CC6900896D3D /* TGD-030.pdf */; };
+		9BED179C1AC9D3EC00896D3D /* TGDsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED179B1AC9D3EC00896D3D /* TGDsVC.swift */; };
+		9BED179E1AC9D5FE00896D3D /* PDFVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED179D1AC9D5FE00896D3D /* PDFVC.swift */; };
+		9BED17A31AC9D8EA00896D3D /* TGD-030-1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BED179F1AC9D8EA00896D3D /* TGD-030-1.pdf */; };
+		9BED17A41AC9D8EA00896D3D /* TGD-031-1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BED17A01AC9D8EA00896D3D /* TGD-031-1.pdf */; };
+		9BED17A51AC9D8EA00896D3D /* TGD-031.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BED17A11AC9D8EA00896D3D /* TGD-031.pdf */; };
+		9BED17A61AC9D8EA00896D3D /* TGD-032.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BED17A21AC9D8EA00896D3D /* TGD-032.pdf */; };
+		9BED17A81AC9D94E00896D3D /* TGD-026.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BED17A71AC9D94E00896D3D /* TGD-026.pdf */; };
+		9BF33E9B1AD04752008A9056 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF33E9A1AD04752008A9056 /* HomeVC.swift */; };
+		9BF33E9D1AD0489A008A9056 /* RoomLayoutSchoolTypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF33E9C1AD0489A008A9056 /* RoomLayoutSchoolTypeVC.swift */; };
+		9BF33E9F1AD04A15008A9056 /* RoomLayoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF33E9E1AD04A15008A9056 /* RoomLayoutVC.swift */; };
+		9BF33EA11AD09F0A008A9056 /* RoomPDFVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF33EA01AD09F0A008A9056 /* RoomPDFVC.swift */; };
+		9BF33EB61AD59B29008A9056 /* P-Classroom-Elevations.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BF33EAE1AD59B29008A9056 /* P-Classroom-Elevations.pdf */; };
+		9BF33EB71AD59B29008A9056 /* P-Classroom-Plan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BF33EAF1AD59B29008A9056 /* P-Classroom-Plan.pdf */; };
+		9BF33EB81AD59B29008A9056 /* P-Library-Elevations.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BF33EB01AD59B29008A9056 /* P-Library-Elevations.pdf */; };
+		9BF33EB91AD59B29008A9056 /* P-Library-Plan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BF33EB11AD59B29008A9056 /* P-Library-Plan.pdf */; };
+		9BF33EBA1AD59B29008A9056 /* P-Office.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BF33EB21AD59B29008A9056 /* P-Office.pdf */; };
+		9BF33EBB1AD59B29008A9056 /* P-PrincipalOffice.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BF33EB31AD59B29008A9056 /* P-PrincipalOffice.pdf */; };
+		9BF33EBC1AD59B29008A9056 /* P-ServeryMultiPurpose.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BF33EB41AD59B29008A9056 /* P-ServeryMultiPurpose.pdf */; };
+		9BF33EBD1AD59B29008A9056 /* P-Staffroom.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BF33EB51AD59B29008A9056 /* P-Staffroom.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BED17861AC9C01F00896D3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BED17681AC9C01E00896D3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BED176F1AC9C01E00896D3D;
+			remoteInfo = "BDP Reference App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B0314521ADDB67100EB0936 /* DaylightCalculatorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaylightCalculatorVC.swift; sourceTree = "<group>"; };
+		9B3962D91AE3C4F6006A3C6E /* A.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = A.pdf; sourceTree = "<group>"; };
+		9B3962DA1AE3C4F6006A3C6E /* B.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = B.pdf; sourceTree = "<group>"; };
+		9B3962DB1AE3C4F6006A3C6E /* C.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = C.pdf; sourceTree = "<group>"; };
+		9B3962DC1AE3C4F6006A3C6E /* D.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = D.pdf; sourceTree = "<group>"; };
+		9B3962DD1AE3C4F6006A3C6E /* E.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = E.pdf; sourceTree = "<group>"; };
+		9B3962DE1AE3C4F6006A3C6E /* F.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = F.pdf; sourceTree = "<group>"; };
+		9B3962DF1AE3C4F6006A3C6E /* G.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = G.pdf; sourceTree = "<group>"; };
+		9B3962E01AE3C4F6006A3C6E /* H.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = H.pdf; sourceTree = "<group>"; };
+		9B3962E11AE3C4F6006A3C6E /* J.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = J.pdf; sourceTree = "<group>"; };
+		9B3962E21AE3C4F6006A3C6E /* K.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = K.pdf; sourceTree = "<group>"; };
+		9B3962E31AE3C4F6006A3C6E /* L1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = L1.pdf; sourceTree = "<group>"; };
+		9B3962E41AE3C4F6006A3C6E /* L2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = L2.pdf; sourceTree = "<group>"; };
+		9B3962E51AE3C4F6006A3C6E /* M.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = M.pdf; sourceTree = "<group>"; };
+		9B3962F41AE3C5E7006A3C6E /* RegOrTGDSelectorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegOrTGDSelectorVC.swift; sourceTree = "<group>"; };
+		9B3962F61AE3CA00006A3C6E /* BuildingRegsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingRegsVC.swift; sourceTree = "<group>"; };
+		9B3962F81AE3CAD3006A3C6E /* BuildingReg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingReg.swift; sourceTree = "<group>"; };
+		9B3962FA1AE3CB62006A3C6E /* BuildingRegLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingRegLoader.swift; sourceTree = "<group>"; };
+		9B4AD6461BB1E1DA00AF9091 /* TGD-002.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TGD-002.pdf"; sourceTree = "<group>"; };
+		9B4AD6471BB1E1DA00AF9091 /* TGD-003.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TGD-003.pdf"; sourceTree = "<group>"; };
+		9B4AD6481BB1E1DA00AF9091 /* TGD-004.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TGD-004.pdf"; sourceTree = "<group>"; };
+		9B4AD6491BB1E1DA00AF9091 /* TGD-005.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TGD-005.pdf"; sourceTree = "<group>"; };
+		9BBB6B701ACC87D800896148 /* TGD-020.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TGD-020.pdf"; sourceTree = "<group>"; };
+		9BBB6B711ACC87D800896148 /* TGD-021-1.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TGD-021-1.doc"; sourceTree = "<group>"; };
+		9BBB6B721ACC87D800896148 /* TGD-021.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TGD-021.pdf"; sourceTree = "<group>"; };
+		9BBB6B731ACC87D800896148 /* TGD-023.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TGD-023.pdf"; sourceTree = "<group>"; };
+		9BBB6B741ACC87D900896148 /* TGD-025.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TGD-025.pdf"; sourceTree = "<group>"; };
+		9BBB6B751ACC87D900896148 /* TGD-021-5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TGD-021-5.pdf"; sourceTree = "<group>"; };
+		9BBB6B761ACC87D900896148 /* TGD-021-6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TGD-021-6.pdf"; sourceTree = "<group>"; };
+		9BBB6B7E1ACC88DF00896148 /* TGDLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGDLoader.swift; sourceTree = "<group>"; };
+		9BBB6B801ACC8DC000896148 /* TGD-022.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TGD-022.pdf"; sourceTree = "<group>"; };
+		9BBB6B811ACC8DC000896148 /* TGD-021-2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TGD-021-2.pdf"; sourceTree = "<group>"; };
+		9BBB6B821ACC8DC000896148 /* TGD-021-3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TGD-021-3.pdf"; sourceTree = "<group>"; };
+		9BBE6D511ACEE68B001FC93B /* InfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
+		9BBE6D531ACF0BE5001FC93B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9BBE6D5A1AD03386001FC93B /* PP-ArtCraft.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-ArtCraft.pdf"; sourceTree = "<group>"; };
+		9BBE6D5B1AD03386001FC93B /* PP-BusinessStudies.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-BusinessStudies.pdf"; sourceTree = "<group>"; };
+		9BBE6D5C1AD03386001FC93B /* PP-CaretakersWorkArea.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-CaretakersWorkArea.pdf"; sourceTree = "<group>"; };
+		9BBE6D5D1AD03386001FC93B /* PP-ChaplinOffice.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-ChaplinOffice.pdf"; sourceTree = "<group>"; };
+		9BBE6D5E1AD03386001FC93B /* PP-Computer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-Computer.pdf"; sourceTree = "<group>"; };
+		9BBE6D5F1AD03386001FC93B /* PP-Construction.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-Construction.pdf"; sourceTree = "<group>"; };
+		9BBE6D601AD03386001FC93B /* PP-Demonstration.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-Demonstration.pdf"; sourceTree = "<group>"; };
+		9BBE6D611AD03386001FC93B /* PP-DesignAndCommunicationGraphics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-DesignAndCommunicationGraphics.pdf"; sourceTree = "<group>"; };
+		9BBE6D621AD03386001FC93B /* PP-DressDesign.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-DressDesign.pdf"; sourceTree = "<group>"; };
+		9BBE6D631AD03386001FC93B /* PP-Engineering.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-Engineering.pdf"; sourceTree = "<group>"; };
+		9BBE6D641AD03386001FC93B /* PP-FirstAid.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-FirstAid.pdf"; sourceTree = "<group>"; };
+		9BBE6D651AD03386001FC93B /* PP-GeneralClassroom.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-GeneralClassroom.pdf"; sourceTree = "<group>"; };
+		9BBE6D661AD03386001FC93B /* PP-GeneralFitnessSuite.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-GeneralFitnessSuite.pdf"; sourceTree = "<group>"; };
+		9BBE6D671AD03386001FC93B /* PP-GeneralOffice1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-GeneralOffice1.pdf"; sourceTree = "<group>"; };
+		9BBE6D681AD03386001FC93B /* PP-GeneralOffice2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-GeneralOffice2.pdf"; sourceTree = "<group>"; };
+		9BBE6D691AD03386001FC93B /* PP-GLBC.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-GLBC.pdf"; sourceTree = "<group>"; };
+		9BBE6D6A1AD03386001FC93B /* PP-GPDiningArea.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-GPDiningArea.pdf"; sourceTree = "<group>"; };
+		9BBE6D6B1AD03386001FC93B /* PP-Group.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-Group.pdf"; sourceTree = "<group>"; };
+		9BBE6D6C1AD03386001FC93B /* PP-HomeEconomics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-HomeEconomics.pdf"; sourceTree = "<group>"; };
+		9BBE6D6D1AD03386001FC93B /* PP-HSCL.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-HSCL.pdf"; sourceTree = "<group>"; };
+		9BBE6D6E1AD03386001FC93B /* PP-Kitchenette.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-Kitchenette.pdf"; sourceTree = "<group>"; };
+		9BBE6D6F1AD03386001FC93B /* PP-LearningSupport1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-LearningSupport1.pdf"; sourceTree = "<group>"; };
+		9BBE6D701AD03386001FC93B /* PP-LearningSupport2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-LearningSupport2.pdf"; sourceTree = "<group>"; };
+		9BBE6D711AD03386001FC93B /* PP-Lecture.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-Lecture.pdf"; sourceTree = "<group>"; };
+		9BBE6D721AD03386001FC93B /* PP-Library1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-Library1.pdf"; sourceTree = "<group>"; };
+		9BBE6D731AD03386001FC93B /* PP-Library2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-Library2.pdf"; sourceTree = "<group>"; };
+		9BBE6D741AD03386001FC93B /* PP-Maths.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-Maths.pdf"; sourceTree = "<group>"; };
+		9BBE6D751AD03386001FC93B /* PP-MeetingRoom.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-MeetingRoom.pdf"; sourceTree = "<group>"; };
+		9BBE6D761AD03386001FC93B /* PP-Multimedia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-Multimedia.pdf"; sourceTree = "<group>"; };
+		9BBE6D771AD03386001FC93B /* PP-MusicDrama.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-MusicDrama.pdf"; sourceTree = "<group>"; };
+		9BBE6D781AD03386001FC93B /* PP-PastoralOffice.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-PastoralOffice.pdf"; sourceTree = "<group>"; };
+		9BBE6D791AD03386001FC93B /* PP-PEControlCentre.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-PEControlCentre.pdf"; sourceTree = "<group>"; };
+		9BBE6D7A1AD03386001FC93B /* PP-PhotocopyRoom.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-PhotocopyRoom.pdf"; sourceTree = "<group>"; };
+		9BBE6D7B1AD03386001FC93B /* PP-PrincipalsOffice.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-PrincipalsOffice.pdf"; sourceTree = "<group>"; };
+		9BBE6D7C1AD03386001FC93B /* PP-ProjectStore.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-ProjectStore.pdf"; sourceTree = "<group>"; };
+		9BBE6D7D1AD03386001FC93B /* PP-Religion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-Religion.pdf"; sourceTree = "<group>"; };
+		9BBE6D7E1AD03386001FC93B /* PP-ScienceLab1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-ScienceLab1.pdf"; sourceTree = "<group>"; };
+		9BBE6D7F1AD03386001FC93B /* PP-ScienceLab2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-ScienceLab2.pdf"; sourceTree = "<group>"; };
+		9BBE6D801AD03386001FC93B /* PP-SciencePrep1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-SciencePrep1.pdf"; sourceTree = "<group>"; };
+		9BBE6D811AD03386001FC93B /* PP-SciencePrep2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-SciencePrep2.pdf"; sourceTree = "<group>"; };
+		9BBE6D821AD03386001FC93B /* PP-SciencePrepSingle.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-SciencePrepSingle.pdf"; sourceTree = "<group>"; };
+		9BBE6D831AD03386001FC93B /* PP-StaffRoom.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-StaffRoom.pdf"; sourceTree = "<group>"; };
+		9BBE6D841AD03386001FC93B /* PP-TechnicalGraphics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-TechnicalGraphics.pdf"; sourceTree = "<group>"; };
+		9BBE6D851AD03386001FC93B /* PP-Technology.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-Technology.pdf"; sourceTree = "<group>"; };
+		9BBE6D861AD03386001FC93B /* PP-WTMP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PP-WTMP.pdf"; sourceTree = "<group>"; };
+		9BBE6DB41AD03594001FC93B /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		9BBE6DB61AD035F7001FC93B /* RoomLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomLoader.swift; sourceTree = "<group>"; };
+		9BCE1F161C6D37DA00F417FE /* TGD-001.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TGD-001.pdf"; sourceTree = "<group>"; };
+		9BCE1F1C1C6E877400F417FE /* DaylightCalculatorInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaylightCalculatorInfoVC.swift; sourceTree = "<group>"; };
+		9BCE1F1E1C6E880400F417FE /* ButtonWithRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonWithRow.swift; sourceTree = "<group>"; };
+		9BCE1F201C6E881200F417FE /* TextFieldWithRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldWithRow.swift; sourceTree = "<group>"; };
+		9BED17701AC9C01E00896D3D /* Pocket TGD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket TGD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BED17741AC9C01E00896D3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BED17751AC9C01F00896D3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BED177A1AC9C01F00896D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BED177C1AC9C01F00896D3D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9BED177F1AC9C01F00896D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9BED17851AC9C01F00896D3D /* Pocket TGDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pocket TGDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BED178A1AC9C01F00896D3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BED178B1AC9C01F00896D3D /* BDP_Reference_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDP_Reference_AppTests.swift; sourceTree = "<group>"; };
+		9BED17971AC9CB5A00896D3D /* TGD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGD.swift; sourceTree = "<group>"; };
+		9BED17991AC9CC6900896D3D /* TGD-030.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TGD-030.pdf"; sourceTree = "<group>"; };
+		9BED179B1AC9D3EC00896D3D /* TGDsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGDsVC.swift; sourceTree = "<group>"; };
+		9BED179D1AC9D5FE00896D3D /* PDFVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFVC.swift; sourceTree = "<group>"; };
+		9BED179F1AC9D8EA00896D3D /* TGD-030-1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TGD-030-1.pdf"; sourceTree = "<group>"; };
+		9BED17A01AC9D8EA00896D3D /* TGD-031-1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TGD-031-1.pdf"; sourceTree = "<group>"; };
+		9BED17A11AC9D8EA00896D3D /* TGD-031.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TGD-031.pdf"; sourceTree = "<group>"; };
+		9BED17A21AC9D8EA00896D3D /* TGD-032.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TGD-032.pdf"; sourceTree = "<group>"; };
+		9BED17A71AC9D94E00896D3D /* TGD-026.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TGD-026.pdf"; sourceTree = "<group>"; };
+		9BF33E9A1AD04752008A9056 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		9BF33E9C1AD0489A008A9056 /* RoomLayoutSchoolTypeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomLayoutSchoolTypeVC.swift; sourceTree = "<group>"; };
+		9BF33E9E1AD04A15008A9056 /* RoomLayoutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomLayoutVC.swift; sourceTree = "<group>"; };
+		9BF33EA01AD09F0A008A9056 /* RoomPDFVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomPDFVC.swift; sourceTree = "<group>"; };
+		9BF33EAE1AD59B29008A9056 /* P-Classroom-Elevations.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "P-Classroom-Elevations.pdf"; sourceTree = "<group>"; };
+		9BF33EAF1AD59B29008A9056 /* P-Classroom-Plan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "P-Classroom-Plan.pdf"; sourceTree = "<group>"; };
+		9BF33EB01AD59B29008A9056 /* P-Library-Elevations.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "P-Library-Elevations.pdf"; sourceTree = "<group>"; };
+		9BF33EB11AD59B29008A9056 /* P-Library-Plan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "P-Library-Plan.pdf"; sourceTree = "<group>"; };
+		9BF33EB21AD59B29008A9056 /* P-Office.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "P-Office.pdf"; sourceTree = "<group>"; };
+		9BF33EB31AD59B29008A9056 /* P-PrincipalOffice.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "P-PrincipalOffice.pdf"; sourceTree = "<group>"; };
+		9BF33EB41AD59B29008A9056 /* P-ServeryMultiPurpose.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "P-ServeryMultiPurpose.pdf"; sourceTree = "<group>"; };
+		9BF33EB51AD59B29008A9056 /* P-Staffroom.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "P-Staffroom.pdf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BED176D1AC9C01E00896D3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BED17821AC9C01F00896D3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B3962D81AE3C4E2006A3C6E /* Building Regulations */ = {
+			isa = PBXGroup;
+			children = (
+				9B3962D91AE3C4F6006A3C6E /* A.pdf */,
+				9B3962DA1AE3C4F6006A3C6E /* B.pdf */,
+				9B3962DB1AE3C4F6006A3C6E /* C.pdf */,
+				9B3962DC1AE3C4F6006A3C6E /* D.pdf */,
+				9B3962DD1AE3C4F6006A3C6E /* E.pdf */,
+				9B3962DE1AE3C4F6006A3C6E /* F.pdf */,
+				9B3962DF1AE3C4F6006A3C6E /* G.pdf */,
+				9B3962E01AE3C4F6006A3C6E /* H.pdf */,
+				9B3962E11AE3C4F6006A3C6E /* J.pdf */,
+				9B3962E21AE3C4F6006A3C6E /* K.pdf */,
+				9B3962E31AE3C4F6006A3C6E /* L1.pdf */,
+				9B3962E41AE3C4F6006A3C6E /* L2.pdf */,
+				9B3962E51AE3C4F6006A3C6E /* M.pdf */,
+			);
+			name = "Building Regulations";
+			sourceTree = "<group>";
+		};
+		9B3962F31AE3C5A4006A3C6E /* Building Regs */ = {
+			isa = PBXGroup;
+			children = (
+				9B3962F81AE3CAD3006A3C6E /* BuildingReg.swift */,
+				9B3962F61AE3CA00006A3C6E /* BuildingRegsVC.swift */,
+				9B3962FA1AE3CB62006A3C6E /* BuildingRegLoader.swift */,
+			);
+			name = "Building Regs";
+			sourceTree = "<group>";
+		};
+		9B3962FE1AE3DF46006A3C6E /* Documents  */ = {
+			isa = PBXGroup;
+			children = (
+				9B3962F41AE3C5E7006A3C6E /* RegOrTGDSelectorVC.swift */,
+				9BED179D1AC9D5FE00896D3D /* PDFVC.swift */,
+				9BF33EA21AD0AA4C008A9056 /* TGDs */,
+				9B3962F31AE3C5A4006A3C6E /* Building Regs */,
+			);
+			name = "Documents ";
+			sourceTree = "<group>";
+		};
+		9BBE6D571AD0334E001FC93B /* TGDs */ = {
+			isa = PBXGroup;
+			children = (
+				9BCE1F161C6D37DA00F417FE /* TGD-001.pdf */,
+				9B4AD6461BB1E1DA00AF9091 /* TGD-002.pdf */,
+				9B4AD6471BB1E1DA00AF9091 /* TGD-003.pdf */,
+				9B4AD6481BB1E1DA00AF9091 /* TGD-004.pdf */,
+				9B4AD6491BB1E1DA00AF9091 /* TGD-005.pdf */,
+				9BBB6B701ACC87D800896148 /* TGD-020.pdf */,
+				9BBB6B721ACC87D800896148 /* TGD-021.pdf */,
+				9BBB6B711ACC87D800896148 /* TGD-021-1.doc */,
+				9BBB6B811ACC8DC000896148 /* TGD-021-2.pdf */,
+				9BBB6B821ACC8DC000896148 /* TGD-021-3.pdf */,
+				9BBB6B751ACC87D900896148 /* TGD-021-5.pdf */,
+				9BBB6B761ACC87D900896148 /* TGD-021-6.pdf */,
+				9BBB6B801ACC8DC000896148 /* TGD-022.pdf */,
+				9BBB6B731ACC87D800896148 /* TGD-023.pdf */,
+				9BBB6B741ACC87D900896148 /* TGD-025.pdf */,
+				9BED17991AC9CC6900896D3D /* TGD-030.pdf */,
+				9BED179F1AC9D8EA00896D3D /* TGD-030-1.pdf */,
+				9BED17A01AC9D8EA00896D3D /* TGD-031-1.pdf */,
+				9BED17A11AC9D8EA00896D3D /* TGD-031.pdf */,
+				9BED17A71AC9D94E00896D3D /* TGD-026.pdf */,
+				9BED17A21AC9D8EA00896D3D /* TGD-032.pdf */,
+			);
+			name = TGDs;
+			sourceTree = "<group>";
+		};
+		9BBE6D581AD0336D001FC93B /* Room Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				9BF33EAD1AD59B1E008A9056 /* Primary */,
+				9BBE6D591AD03377001FC93B /* Post Primary */,
+			);
+			name = "Room Layouts";
+			sourceTree = "<group>";
+		};
+		9BBE6D591AD03377001FC93B /* Post Primary */ = {
+			isa = PBXGroup;
+			children = (
+				9BBE6D5A1AD03386001FC93B /* PP-ArtCraft.pdf */,
+				9BBE6D5B1AD03386001FC93B /* PP-BusinessStudies.pdf */,
+				9BBE6D5C1AD03386001FC93B /* PP-CaretakersWorkArea.pdf */,
+				9BBE6D5D1AD03386001FC93B /* PP-ChaplinOffice.pdf */,
+				9BBE6D5E1AD03386001FC93B /* PP-Computer.pdf */,
+				9BBE6D5F1AD03386001FC93B /* PP-Construction.pdf */,
+				9BBE6D601AD03386001FC93B /* PP-Demonstration.pdf */,
+				9BBE6D611AD03386001FC93B /* PP-DesignAndCommunicationGraphics.pdf */,
+				9BBE6D621AD03386001FC93B /* PP-DressDesign.pdf */,
+				9BBE6D631AD03386001FC93B /* PP-Engineering.pdf */,
+				9BBE6D641AD03386001FC93B /* PP-FirstAid.pdf */,
+				9BBE6D651AD03386001FC93B /* PP-GeneralClassroom.pdf */,
+				9BBE6D661AD03386001FC93B /* PP-GeneralFitnessSuite.pdf */,
+				9BBE6D671AD03386001FC93B /* PP-GeneralOffice1.pdf */,
+				9BBE6D681AD03386001FC93B /* PP-GeneralOffice2.pdf */,
+				9BBE6D691AD03386001FC93B /* PP-GLBC.pdf */,
+				9BBE6D6A1AD03386001FC93B /* PP-GPDiningArea.pdf */,
+				9BBE6D6B1AD03386001FC93B /* PP-Group.pdf */,
+				9BBE6D6C1AD03386001FC93B /* PP-HomeEconomics.pdf */,
+				9BBE6D6D1AD03386001FC93B /* PP-HSCL.pdf */,
+				9BBE6D6E1AD03386001FC93B /* PP-Kitchenette.pdf */,
+				9BBE6D6F1AD03386001FC93B /* PP-LearningSupport1.pdf */,
+				9BBE6D701AD03386001FC93B /* PP-LearningSupport2.pdf */,
+				9BBE6D711AD03386001FC93B /* PP-Lecture.pdf */,
+				9BBE6D721AD03386001FC93B /* PP-Library1.pdf */,
+				9BBE6D731AD03386001FC93B /* PP-Library2.pdf */,
+				9BBE6D741AD03386001FC93B /* PP-Maths.pdf */,
+				9BBE6D751AD03386001FC93B /* PP-MeetingRoom.pdf */,
+				9BBE6D761AD03386001FC93B /* PP-Multimedia.pdf */,
+				9BBE6D771AD03386001FC93B /* PP-MusicDrama.pdf */,
+				9BBE6D781AD03386001FC93B /* PP-PastoralOffice.pdf */,
+				9BBE6D791AD03386001FC93B /* PP-PEControlCentre.pdf */,
+				9BBE6D7A1AD03386001FC93B /* PP-PhotocopyRoom.pdf */,
+				9BBE6D7B1AD03386001FC93B /* PP-PrincipalsOffice.pdf */,
+				9BBE6D7C1AD03386001FC93B /* PP-ProjectStore.pdf */,
+				9BBE6D7D1AD03386001FC93B /* PP-Religion.pdf */,
+				9BBE6D7E1AD03386001FC93B /* PP-ScienceLab1.pdf */,
+				9BBE6D7F1AD03386001FC93B /* PP-ScienceLab2.pdf */,
+				9BBE6D801AD03386001FC93B /* PP-SciencePrep1.pdf */,
+				9BBE6D811AD03386001FC93B /* PP-SciencePrep2.pdf */,
+				9BBE6D821AD03386001FC93B /* PP-SciencePrepSingle.pdf */,
+				9BBE6D831AD03386001FC93B /* PP-StaffRoom.pdf */,
+				9BBE6D841AD03386001FC93B /* PP-TechnicalGraphics.pdf */,
+				9BBE6D851AD03386001FC93B /* PP-Technology.pdf */,
+				9BBE6D861AD03386001FC93B /* PP-WTMP.pdf */,
+			);
+			name = "Post Primary";
+			sourceTree = "<group>";
+		};
+		9BED17671AC9C01E00896D3D = {
+			isa = PBXGroup;
+			children = (
+				9BED17721AC9C01E00896D3D /* Pocket TGD */,
+				9BED17881AC9C01F00896D3D /* BDP Reference AppTests */,
+				9BED17711AC9C01E00896D3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BED17711AC9C01E00896D3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BED17701AC9C01E00896D3D /* Pocket TGD.app */,
+				9BED17851AC9C01F00896D3D /* Pocket TGDTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BED17721AC9C01E00896D3D /* Pocket TGD */ = {
+			isa = PBXGroup;
+			children = (
+				9BED17751AC9C01F00896D3D /* AppDelegate.swift */,
+				9BED17791AC9C01F00896D3D /* Main.storyboard */,
+				9BED177E1AC9C01F00896D3D /* LaunchScreen.xib */,
+				9BF33E9A1AD04752008A9056 /* HomeVC.swift */,
+				9BBE6D531ACF0BE5001FC93B /* Constants.swift */,
+				9BBE6D511ACEE68B001FC93B /* InfoVC.swift */,
+				9B3962FE1AE3DF46006A3C6E /* Documents  */,
+				9BF33EA31AD0AA5A008A9056 /* Rooms */,
+				9BF33EA61AD150A0008A9056 /* Daylight Calculator */,
+				9BED177C1AC9C01F00896D3D /* Images.xcassets */,
+				9BED17731AC9C01E00896D3D /* Supporting Files */,
+			);
+			path = "Pocket TGD";
+			sourceTree = "<group>";
+		};
+		9BED17731AC9C01E00896D3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B3962D81AE3C4E2006A3C6E /* Building Regulations */,
+				9BBE6D581AD0336D001FC93B /* Room Layouts */,
+				9BBE6D571AD0334E001FC93B /* TGDs */,
+				9BED17741AC9C01E00896D3D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BED17881AC9C01F00896D3D /* BDP Reference AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BED178B1AC9C01F00896D3D /* BDP_Reference_AppTests.swift */,
+				9BED17891AC9C01F00896D3D /* Supporting Files */,
+			);
+			name = "BDP Reference AppTests";
+			path = PocketTGDTests;
+			sourceTree = "<group>";
+		};
+		9BED17891AC9C01F00896D3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BED178A1AC9C01F00896D3D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BF33EA21AD0AA4C008A9056 /* TGDs */ = {
+			isa = PBXGroup;
+			children = (
+				9BED17971AC9CB5A00896D3D /* TGD.swift */,
+				9BED179B1AC9D3EC00896D3D /* TGDsVC.swift */,
+				9BBB6B7E1ACC88DF00896148 /* TGDLoader.swift */,
+			);
+			name = TGDs;
+			sourceTree = "<group>";
+		};
+		9BF33EA31AD0AA5A008A9056 /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				9BBE6DB41AD03594001FC93B /* Room.swift */,
+				9BBE6DB61AD035F7001FC93B /* RoomLoader.swift */,
+				9BF33E9C1AD0489A008A9056 /* RoomLayoutSchoolTypeVC.swift */,
+				9BF33E9E1AD04A15008A9056 /* RoomLayoutVC.swift */,
+				9BF33EA01AD09F0A008A9056 /* RoomPDFVC.swift */,
+			);
+			name = Rooms;
+			sourceTree = "<group>";
+		};
+		9BF33EA61AD150A0008A9056 /* Daylight Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				9B0314521ADDB67100EB0936 /* DaylightCalculatorVC.swift */,
+				9BCE1F1C1C6E877400F417FE /* DaylightCalculatorInfoVC.swift */,
+				9BCE1F1E1C6E880400F417FE /* ButtonWithRow.swift */,
+				9BCE1F201C6E881200F417FE /* TextFieldWithRow.swift */,
+			);
+			name = "Daylight Calculator";
+			sourceTree = "<group>";
+		};
+		9BF33EAD1AD59B1E008A9056 /* Primary */ = {
+			isa = PBXGroup;
+			children = (
+				9BF33EAE1AD59B29008A9056 /* P-Classroom-Elevations.pdf */,
+				9BF33EAF1AD59B29008A9056 /* P-Classroom-Plan.pdf */,
+				9BF33EB01AD59B29008A9056 /* P-Library-Elevations.pdf */,
+				9BF33EB11AD59B29008A9056 /* P-Library-Plan.pdf */,
+				9BF33EB21AD59B29008A9056 /* P-Office.pdf */,
+				9BF33EB31AD59B29008A9056 /* P-PrincipalOffice.pdf */,
+				9BF33EB41AD59B29008A9056 /* P-ServeryMultiPurpose.pdf */,
+				9BF33EB51AD59B29008A9056 /* P-Staffroom.pdf */,
+			);
+			name = Primary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BED176F1AC9C01E00896D3D /* Pocket TGD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BED178F1AC9C01F00896D3D /* Build configuration list for PBXNativeTarget "Pocket TGD" */;
+			buildPhases = (
+				9BED176C1AC9C01E00896D3D /* Sources */,
+				9BED176D1AC9C01E00896D3D /* Frameworks */,
+				9BED176E1AC9C01E00896D3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pocket TGD";
+			productName = "BDP Reference App";
+			productReference = 9BED17701AC9C01E00896D3D /* Pocket TGD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BED17841AC9C01F00896D3D /* Pocket TGDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BED17921AC9C01F00896D3D /* Build configuration list for PBXNativeTarget "Pocket TGDTests" */;
+			buildPhases = (
+				9BED17811AC9C01F00896D3D /* Sources */,
+				9BED17821AC9C01F00896D3D /* Frameworks */,
+				9BED17831AC9C01F00896D3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BED17871AC9C01F00896D3D /* PBXTargetDependency */,
+			);
+			name = "Pocket TGDTests";
+			productName = "BDP Reference AppTests";
+			productReference = 9BED17851AC9C01F00896D3D /* Pocket TGDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BED17681AC9C01E00896D3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = RichApps;
+				TargetAttributes = {
+					9BED176F1AC9C01E00896D3D = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 747FHAXMVE;
+					};
+					9BED17841AC9C01F00896D3D = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 9BED176F1AC9C01E00896D3D;
+					};
+				};
+			};
+			buildConfigurationList = 9BED176B1AC9C01E00896D3D /* Build configuration list for PBXProject "Pocket TGD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BED17671AC9C01E00896D3D;
+			productRefGroup = 9BED17711AC9C01E00896D3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BED176F1AC9C01E00896D3D /* Pocket TGD */,
+				9BED17841AC9C01F00896D3D /* Pocket TGDTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BED176E1AC9C01E00896D3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3962EA1AE3C4F6006A3C6E /* E.pdf in Resources */,
+				9BBB6B7A1ACC87D900896148 /* TGD-023.pdf in Resources */,
+				9BED17A41AC9D8EA00896D3D /* TGD-031-1.pdf in Resources */,
+				9BBE6D991AD03386001FC93B /* PP-HomeEconomics.pdf in Resources */,
+				9BBE6D881AD03386001FC93B /* PP-BusinessStudies.pdf in Resources */,
+				9B3962ED1AE3C4F6006A3C6E /* H.pdf in Resources */,
+				9BBE6DA51AD03386001FC93B /* PP-PastoralOffice.pdf in Resources */,
+				9BBE6D9C1AD03386001FC93B /* PP-LearningSupport1.pdf in Resources */,
+				9BBE6D8B1AD03386001FC93B /* PP-Computer.pdf in Resources */,
+				9BBE6D901AD03386001FC93B /* PP-Engineering.pdf in Resources */,
+				9B3962EF1AE3C4F6006A3C6E /* K.pdf in Resources */,
+				9BF33EB61AD59B29008A9056 /* P-Classroom-Elevations.pdf in Resources */,
+				9BBE6DB31AD03386001FC93B /* PP-WTMP.pdf in Resources */,
+				9BBE6D971AD03386001FC93B /* PP-GPDiningArea.pdf in Resources */,
+				9BBE6DA61AD03386001FC93B /* PP-PEControlCentre.pdf in Resources */,
+				9BED17A31AC9D8EA00896D3D /* TGD-030-1.pdf in Resources */,
+				9B3962EE1AE3C4F6006A3C6E /* J.pdf in Resources */,
+				9BBB6B781ACC87D900896148 /* TGD-021-1.doc in Resources */,
+				9BBE6D8D1AD03386001FC93B /* PP-Demonstration.pdf in Resources */,
+				9BBB6B851ACC8DC000896148 /* TGD-021-3.pdf in Resources */,
+				9BF33EBC1AD59B29008A9056 /* P-ServeryMultiPurpose.pdf in Resources */,
+				9BBE6DAD1AD03386001FC93B /* PP-SciencePrep1.pdf in Resources */,
+				9BED17A81AC9D94E00896D3D /* TGD-026.pdf in Resources */,
+				9B3962E71AE3C4F6006A3C6E /* B.pdf in Resources */,
+				9BBE6DAA1AD03386001FC93B /* PP-Religion.pdf in Resources */,
+				9BF33EB81AD59B29008A9056 /* P-Library-Elevations.pdf in Resources */,
+				9BF33EB91AD59B29008A9056 /* P-Library-Plan.pdf in Resources */,
+				9BBE6D8E1AD03386001FC93B /* PP-DesignAndCommunicationGraphics.pdf in Resources */,
+				9BF33EBB1AD59B29008A9056 /* P-PrincipalOffice.pdf in Resources */,
+				9BBE6DAB1AD03386001FC93B /* PP-ScienceLab1.pdf in Resources */,
+				9BBE6DB11AD03386001FC93B /* PP-TechnicalGraphics.pdf in Resources */,
+				9BBB6B7D1ACC87D900896148 /* TGD-021-6.pdf in Resources */,
+				9BED177B1AC9C01F00896D3D /* Main.storyboard in Resources */,
+				9BBE6DA11AD03386001FC93B /* PP-Maths.pdf in Resources */,
+				9B3962E81AE3C4F6006A3C6E /* C.pdf in Resources */,
+				9BBE6D891AD03386001FC93B /* PP-CaretakersWorkArea.pdf in Resources */,
+				9B3962E61AE3C4F6006A3C6E /* A.pdf in Resources */,
+				9BBE6D9A1AD03386001FC93B /* PP-HSCL.pdf in Resources */,
+				9BBB6B841ACC8DC000896148 /* TGD-021-2.pdf in Resources */,
+				9BED17801AC9C01F00896D3D /* LaunchScreen.xib in Resources */,
+				9BBE6D961AD03386001FC93B /* PP-GLBC.pdf in Resources */,
+				9BED17A61AC9D8EA00896D3D /* TGD-032.pdf in Resources */,
+				9BBE6DAF1AD03386001FC93B /* PP-SciencePrepSingle.pdf in Resources */,
+				9BBE6D8A1AD03386001FC93B /* PP-ChaplinOffice.pdf in Resources */,
+				9BF33EBA1AD59B29008A9056 /* P-Office.pdf in Resources */,
+				9B3962F01AE3C4F6006A3C6E /* L1.pdf in Resources */,
+				9BBE6D911AD03386001FC93B /* PP-FirstAid.pdf in Resources */,
+				9BBE6D931AD03386001FC93B /* PP-GeneralFitnessSuite.pdf in Resources */,
+				9B3962F11AE3C4F6006A3C6E /* L2.pdf in Resources */,
+				9BBB6B831ACC8DC000896148 /* TGD-022.pdf in Resources */,
+				9B3962F21AE3C4F6006A3C6E /* M.pdf in Resources */,
+				9B4AD64B1BB1E1DA00AF9091 /* TGD-003.pdf in Resources */,
+				9BBE6D941AD03386001FC93B /* PP-GeneralOffice1.pdf in Resources */,
+				9BBE6DA41AD03386001FC93B /* PP-MusicDrama.pdf in Resources */,
+				9BBE6D8F1AD03386001FC93B /* PP-DressDesign.pdf in Resources */,
+				9BBB6B771ACC87D900896148 /* TGD-020.pdf in Resources */,
+				9BBE6D951AD03386001FC93B /* PP-GeneralOffice2.pdf in Resources */,
+				9BBE6DB21AD03386001FC93B /* PP-Technology.pdf in Resources */,
+				9B3962EC1AE3C4F6006A3C6E /* G.pdf in Resources */,
+				9B3962EB1AE3C4F6006A3C6E /* F.pdf in Resources */,
+				9BBE6D921AD03386001FC93B /* PP-GeneralClassroom.pdf in Resources */,
+				9BBE6DA71AD03386001FC93B /* PP-PhotocopyRoom.pdf in Resources */,
+				9BED17A51AC9D8EA00896D3D /* TGD-031.pdf in Resources */,
+				9BBE6DA31AD03386001FC93B /* PP-Multimedia.pdf in Resources */,
+				9BBE6DA91AD03386001FC93B /* PP-ProjectStore.pdf in Resources */,
+				9BBE6DAE1AD03386001FC93B /* PP-SciencePrep2.pdf in Resources */,
+				9BBE6D9B1AD03386001FC93B /* PP-Kitchenette.pdf in Resources */,
+				9BCE1F171C6D37DA00F417FE /* TGD-001.pdf in Resources */,
+				9B3962E91AE3C4F6006A3C6E /* D.pdf in Resources */,
+				9B4AD64C1BB1E1DA00AF9091 /* TGD-004.pdf in Resources */,
+				9BBE6DA21AD03386001FC93B /* PP-MeetingRoom.pdf in Resources */,
+				9BBE6D9D1AD03386001FC93B /* PP-LearningSupport2.pdf in Resources */,
+				9BBE6DAC1AD03386001FC93B /* PP-ScienceLab2.pdf in Resources */,
+				9BBE6D8C1AD03386001FC93B /* PP-Construction.pdf in Resources */,
+				9BBE6D981AD03386001FC93B /* PP-Group.pdf in Resources */,
+				9BF33EB71AD59B29008A9056 /* P-Classroom-Plan.pdf in Resources */,
+				9BBB6B7C1ACC87D900896148 /* TGD-021-5.pdf in Resources */,
+				9BBE6D871AD03386001FC93B /* PP-ArtCraft.pdf in Resources */,
+				9BBB6B791ACC87D900896148 /* TGD-021.pdf in Resources */,
+				9BBE6DA81AD03386001FC93B /* PP-PrincipalsOffice.pdf in Resources */,
+				9BBB6B7B1ACC87D900896148 /* TGD-025.pdf in Resources */,
+				9BED179A1AC9CC6900896D3D /* TGD-030.pdf in Resources */,
+				9BBE6DB01AD03386001FC93B /* PP-StaffRoom.pdf in Resources */,
+				9BBE6D9E1AD03386001FC93B /* PP-Lecture.pdf in Resources */,
+				9BBE6D9F1AD03386001FC93B /* PP-Library1.pdf in Resources */,
+				9BF33EBD1AD59B29008A9056 /* P-Staffroom.pdf in Resources */,
+				9B4AD64A1BB1E1DA00AF9091 /* TGD-002.pdf in Resources */,
+				9BED177D1AC9C01F00896D3D /* Images.xcassets in Resources */,
+				9B4AD64D1BB1E1DA00AF9091 /* TGD-005.pdf in Resources */,
+				9BBE6DA01AD03386001FC93B /* PP-Library2.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BED17831AC9C01F00896D3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BED176C1AC9C01E00896D3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF33EA11AD09F0A008A9056 /* RoomPDFVC.swift in Sources */,
+				9B3962F91AE3CAD3006A3C6E /* BuildingReg.swift in Sources */,
+				9B3962FB1AE3CB62006A3C6E /* BuildingRegLoader.swift in Sources */,
+				9BBE6DB71AD035F7001FC93B /* RoomLoader.swift in Sources */,
+				9BBB6B7F1ACC88DF00896148 /* TGDLoader.swift in Sources */,
+				9BF33E9D1AD0489A008A9056 /* RoomLayoutSchoolTypeVC.swift in Sources */,
+				9BED17761AC9C01F00896D3D /* AppDelegate.swift in Sources */,
+				9BBE6DB51AD03594001FC93B /* Room.swift in Sources */,
+				9BBE6D521ACEE68B001FC93B /* InfoVC.swift in Sources */,
+				9BED179E1AC9D5FE00896D3D /* PDFVC.swift in Sources */,
+				9BCE1F211C6E881200F417FE /* TextFieldWithRow.swift in Sources */,
+				9BF33E9F1AD04A15008A9056 /* RoomLayoutVC.swift in Sources */,
+				9BCE1F1D1C6E877400F417FE /* DaylightCalculatorInfoVC.swift in Sources */,
+				9BED17981AC9CB5A00896D3D /* TGD.swift in Sources */,
+				9B0314531ADDB67100EB0936 /* DaylightCalculatorVC.swift in Sources */,
+				9BCE1F1F1C6E880400F417FE /* ButtonWithRow.swift in Sources */,
+				9B3962F51AE3C5E7006A3C6E /* RegOrTGDSelectorVC.swift in Sources */,
+				9BF33E9B1AD04752008A9056 /* HomeVC.swift in Sources */,
+				9BED179C1AC9D3EC00896D3D /* TGDsVC.swift in Sources */,
+				9BBE6D541ACF0BE5001FC93B /* Constants.swift in Sources */,
+				9B3962F71AE3CA00006A3C6E /* BuildingRegsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BED17811AC9C01F00896D3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BED178C1AC9C01F00896D3D /* BDP_Reference_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BED17871AC9C01F00896D3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BED176F1AC9C01E00896D3D /* Pocket TGD */;
+			targetProxy = 9BED17861AC9C01F00896D3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BED17791AC9C01F00896D3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BED177A1AC9C01F00896D3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BED177E1AC9C01F00896D3D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BED177F1AC9C01F00896D3D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BED178D1AC9C01F00896D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BED178E1AC9C01F00896D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BED17901AC9C01F00896D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "BDP Reference App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Pocket TGD";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BED17911AC9C01F00896D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "BDP Reference App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Pocket TGD";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BED17931AC9C01F00896D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BDP Reference AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "Pocket TGDTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pocket TGD.app/Pocket TGD";
+			};
+			name = Debug;
+		};
+		9BED17941AC9C01F00896D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BDP Reference AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "Pocket TGDTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pocket TGD.app/Pocket TGD";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BED176B1AC9C01E00896D3D /* Build configuration list for PBXProject "Pocket TGD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BED178D1AC9C01F00896D3D /* Debug */,
+				9BED178E1AC9C01F00896D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BED178F1AC9C01F00896D3D /* Build configuration list for PBXNativeTarget "Pocket TGD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BED17901AC9C01F00896D3D /* Debug */,
+				9BED17911AC9C01F00896D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BED17921AC9C01F00896D3D /* Build configuration list for PBXNativeTarget "Pocket TGDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BED17931AC9C01F00896D3D /* Debug */,
+				9BED17941AC9C01F00896D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BED17681AC9C01E00896D3D /* Project object */;
+}
